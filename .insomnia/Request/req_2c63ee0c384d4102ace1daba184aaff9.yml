@@ -1,7 +1,7 @@
 _id: req_2c63ee0c384d4102ace1daba184aaff9
 type: Request
 parentId: fld_37a52dc85f9a4be3bb56b403f09d11f1
-modified: 1693844468119
+modified: 1694020745768
 created: 1693514552079
 url: "{{ _.baseURL }}companies"
 name: Create Company
@@ -11,8 +11,8 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"name":"Zigurate Estudio LTDAaaa",
-    	"email":"zigurate@gmailllll.com",
+    	"name":"Bugaboo Studio",
+    	"email":"bugaboo@bugaboostudio.com",
     	"cnpj":"10017410345555",
     	"section": "A"
     }
@@ -24,6 +24,7 @@ authentication:
   type: bearer
   token: "{% response 'body', 'req_9ef8ff64399946e8a96ca6ee4f609dca',
     'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'never', 60 %}"
+  disabled: true
 metaSortKey: -1693345193563.5
 isPrivate: false
 settingStoreCookies: true
