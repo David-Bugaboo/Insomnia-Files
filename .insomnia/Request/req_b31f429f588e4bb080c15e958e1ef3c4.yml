@@ -1,0 +1,23 @@
+_id: req_b31f429f588e4bb080c15e958e1ef3c4
+type: Request
+parentId: fld_ac24a9c1d5dc4ae49b861765eded75e9
+modified: 1693940704286
+created: 1693940429960
+url: "{{ _.baseURL
+  }}questions/316d2390-90a1-4400-9125-e93ceb9cbe16/answer/a4354617-0877-4aa3-97\
+  a8-9b04887c5976"
+name: Delete Answer
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1693926488623.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

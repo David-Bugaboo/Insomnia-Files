@@ -1,0 +1,24 @@
+_id: req_7d250e26a1554faf94436803a7b8942b
+type: Request
+parentId: fld_37a52dc85f9a4be3bb56b403f09d11f1
+modified: 1693945038272
+created: 1693514552083
+url: "{{ _.baseURL }}companies/dfc85596-6168-4ee2-a95e-5c082d3f42aa"
+name: Get Specific Company
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_9ef8ff64399946e8a96ca6ee4f609dca',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'never', 60 %}"
+metaSortKey: -1693345212173.625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

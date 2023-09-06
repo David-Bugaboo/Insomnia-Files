@@ -1,0 +1,25 @@
+_id: req_af4fe175999640de8b4b73699072a028
+type: Request
+parentId: fld_e9ab6a50798046f1a40dc8fc1f40b2b6
+modified: 1693842451879
+created: 1693348601455
+url: "{{ _.baseURL }}users/a5a3fcec-20c4-4654-a9cc-4286b4d7b93b"
+name: Get Specific User
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_9ef8ff64399946e8a96ca6ee4f609dca',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'never', 60 %}"
+  disabled: false
+metaSortKey: -1693345212173.625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,60 @@
+_id: req_c211f30d94634ee6861d207b8e01250e
+type: Request
+parentId: fld_ac24a9c1d5dc4ae49b861765eded75e9
+modified: 1693939765346
+created: 1693925958918
+url: "{{ _.baseURL }}questions"
+name: Create Question
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+            "section": "All",
+            "mandatory": false,
+            "category": "Media",
+            "subcategory": "Telecommunications",
+            "statement": "(.|\n){10,}",
+            "code": "VL-1548",
+            "answers": [
+                {
+                    "text": "kflkHE2021",
+                    "points": 95,
+                    "title": "Iniciante"
+                },
+                {
+                    "text": "IfgtC8Ck0W",
+                    "points": 88,
+                    "title": "Engajado"
+                },
+                {
+                    "text": "SKz036TBFp",
+                    "points": 62,
+                    "title": "Nao_conforme"
+                },
+                {
+                    "text": "B84ysfmkz9",
+                    "points": 51,
+                    "title": "Sensibilizada"
+                },
+                {
+                    "text": "9Wt8Q00A2I",
+                    "points": 93,
+                    "title": "Consciente"
+                }
+            ]
+        }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1693925958918
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

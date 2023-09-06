@@ -1,0 +1,30 @@
+_id: req_56248b2bc52d4374bffbe75d2105a7c9
+type: Request
+parentId: fld_ac24a9c1d5dc4ae49b861765eded75e9
+modified: 1693935206361
+created: 1693928077741
+url: "{{ _.baseURL }}questions/316d2390-90a1-4400-9125-e93ceb9cbe16"
+name: Get All Questions
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"statement":"pergunta qualquer",
+    	"mandatory":true,
+    	"answers":["bosta"]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1693928077741
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

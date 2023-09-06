@@ -1,0 +1,25 @@
+_id: req_e7217ab11dec47d692c8333f1afb0549
+type: Request
+parentId: fld_ac24a9c1d5dc4ae49b861765eded75e9
+modified: 1693940508437
+created: 1693939605509
+url: "{{ _.baseURL }}questions"
+name: get All Questions
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1693927150755.9375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

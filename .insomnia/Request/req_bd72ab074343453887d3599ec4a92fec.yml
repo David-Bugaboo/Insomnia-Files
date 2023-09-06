@@ -1,0 +1,30 @@
+_id: req_bd72ab074343453887d3599ec4a92fec
+type: Request
+parentId: fld_ac24a9c1d5dc4ae49b861765eded75e9
+modified: 1693942675540
+created: 1693934965376
+url: "{{ _.baseURL
+  }}questions/b6a313c9-2dbe-44b8-a3cc-589adcbb2262/answer/6967ec47-2ab8-4809-8d\
+  b1-330e6cbd153e"
+name: update Answer
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"text":"Um texto de respeito, real"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1693927548035.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

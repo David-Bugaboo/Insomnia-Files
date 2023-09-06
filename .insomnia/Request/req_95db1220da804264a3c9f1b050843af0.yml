@@ -1,0 +1,31 @@
+_id: req_95db1220da804264a3c9f1b050843af0
+type: Request
+parentId: fld_37a52dc85f9a4be3bb56b403f09d11f1
+modified: 1693945065839
+created: 1693514552084
+url: "{{ _.baseURL }}companies/dfc85596-6168-4ee2-a95e-5c082d3f42aa"
+name: Update Company
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"cnpj":"10017410345555"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_9ef8ff64399946e8a96ca6ee4f609dca',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'never', 60 %}"
+metaSortKey: -1693345181156.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

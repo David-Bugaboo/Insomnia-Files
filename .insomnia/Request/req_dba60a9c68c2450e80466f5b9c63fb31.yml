@@ -1,0 +1,28 @@
+_id: req_dba60a9c68c2450e80466f5b9c63fb31
+type: Request
+parentId: fld_817529b467aa4f5cb95dce7ac77a49bf
+modified: 1693500280194
+created: 1693488685719
+url: "{{ _.baseURL }}auth/me"
+name: Me
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_9ef8ff64399946e8a96ca6ee4f609dca',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'never', 60 %}"
+metaSortKey: -1693488685719
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

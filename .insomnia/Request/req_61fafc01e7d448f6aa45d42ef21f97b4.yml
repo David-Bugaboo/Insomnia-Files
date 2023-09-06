@@ -1,0 +1,30 @@
+_id: req_61fafc01e7d448f6aa45d42ef21f97b4
+type: Request
+parentId: fld_ac24a9c1d5dc4ae49b861765eded75e9
+modified: 1693939325341
+created: 1693937480201
+url: "{{ _.baseURL }}questions/316d2390-90a1-4400-9125-e93ceb9cbe16/addQuestion"
+name: Add Answer
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+          "title": "Consciente",
+          "points": 55,
+          "text": "44woEovBaL"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1693927283182.375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

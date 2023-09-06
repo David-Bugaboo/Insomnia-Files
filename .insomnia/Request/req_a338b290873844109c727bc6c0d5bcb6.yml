@@ -1,0 +1,23 @@
+_id: req_a338b290873844109c727bc6c0d5bcb6
+type: Request
+parentId: fld_ac24a9c1d5dc4ae49b861765eded75e9
+modified: 1693939987242
+created: 1693934304149
+url: "{{ _.baseURL
+  }}questions/b6a313c9-2dbe-44b8-a3cc-589adcbb2262/answer/6967ec47-2ab8-4809-8d\
+  b1-330e6cbd153e"
+name: get Specific Answer
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1693927018329.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,24 @@
+_id: req_eca68653c04841df962ade37bcbb051b
+type: Request
+parentId: fld_37a52dc85f9a4be3bb56b403f09d11f1
+modified: 1693848770653
+created: 1693514552082
+url: "{{ _.baseURL }}companies/fb84b47a-327f-4ca6-a0d3-e6b980efac16"
+name: Delete Company
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_9ef8ff64399946e8a96ca6ee4f609dca',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'never', 60 %}"
+metaSortKey: -1693345205970.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,38 @@
+_id: req_bbc718843f1743128a25abf7b137304f
+type: Request
+parentId: fld_e9ab6a50798046f1a40dc8fc1f40b2b6
+modified: 1693944196662
+created: 1693345264719
+url: "{{ _.baseURL }}users"
+name: Create User
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name":"David Facó",
+    	"email":"davidfaco1@bugaboostudio.com",
+    	"password":"Zigurate1",
+    	"cpf":"05862080384",
+    	"role":"ADMIN",
+    	"batata":"batata",
+    	"companyId":"dfc85596-6168-4ee2-a95e-5c082d3f42aa"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_9ef8ff64399946e8a96ca6ee4f609dca',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'never', 60 %}"
+  disabled: true
+metaSortKey: -1693345193563.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

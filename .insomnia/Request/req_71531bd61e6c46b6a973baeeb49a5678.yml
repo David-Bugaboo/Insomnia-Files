@@ -1,0 +1,25 @@
+_id: req_71531bd61e6c46b6a973baeeb49a5678
+type: Request
+parentId: fld_e9ab6a50798046f1a40dc8fc1f40b2b6
+modified: 1693840746961
+created: 1693345218377
+url: "{{ _.baseURL }}users"
+name: Get All Users
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_9ef8ff64399946e8a96ca6ee4f609dca',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'never', 60 %}"
+  disabled: false
+metaSortKey: -1693345218377
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

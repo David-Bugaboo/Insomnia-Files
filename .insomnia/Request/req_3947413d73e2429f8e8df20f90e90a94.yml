@@ -1,0 +1,21 @@
+_id: req_3947413d73e2429f8e8df20f90e90a94
+type: Request
+parentId: fld_ac24a9c1d5dc4ae49b861765eded75e9
+modified: 1693934351849
+created: 1693933626577
+url: "{{ _.baseURL }}questions/8181743f-90ca-4a0d-a982-6fe46568ec1f"
+name: Delete Questions
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1693933626577
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,21 @@
+_id: req_322c1c06470a413684ab611555a4f94d
+type: Request
+parentId: fld_ac24a9c1d5dc4ae49b861765eded75e9
+modified: 1693940009700
+created: 1693938947395
+url: "{{ _.baseURL }}questions/316d2390-90a1-4400-9125-e93ceb9cbe16"
+name: Get Specific Questions
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1693927415608.8125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
