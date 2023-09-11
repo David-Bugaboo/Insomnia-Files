@@ -1,7 +1,7 @@
 _id: req_bbc718843f1743128a25abf7b137304f
 type: Request
 parentId: fld_e9ab6a50798046f1a40dc8fc1f40b2b6
-modified: 1693944196662
+modified: 1694022586394
 created: 1693345264719
 url: "{{ _.baseURL }}users"
 name: Create User
@@ -17,7 +17,7 @@ body:
     	"cpf":"05862080384",
     	"role":"ADMIN",
     	"batata":"batata",
-    	"companyId":"dfc85596-6168-4ee2-a95e-5c082d3f42aa"
+    	"companyId":"f486553d-fa89-42f2-a0aa-71595ae6ac57"
     }
 parameters: []
 headers:
