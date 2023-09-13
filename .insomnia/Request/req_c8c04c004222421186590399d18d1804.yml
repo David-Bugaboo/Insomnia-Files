@@ -1,22 +1,22 @@
-_id: req_bbc718843f1743128a25abf7b137304f
+_id: req_c8c04c004222421186590399d18d1804
 type: Request
 parentId: fld_e9ab6a50798046f1a40dc8fc1f40b2b6
-modified: 1694547530668
-created: 1693345264719
-url: "{{ _.baseURL }}users"
-name: Create User
+modified: 1694546592209
+created: 1694546519467
+url: "{{ _.baseURL }}users/superuser"
+name: create SuperUser
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"name":"David Facó",
-    	"email":"david.faco@bugaboostudio.com",
+    	"name":"Elson Pegado",
+    	"email":"elson@bugaboostudio.com",
     	"password":"Zigurate1",
-    	"cpf":"05862080384",
-    	"role":"ADMIN",
-    	"companyId":"5d09972f-ecec-49eb-b512-5dda08e19dda"
+    	"cpf":"14574101334",
+    	"role":"SUPERUSER",
+    	"companyId":"7cfe2b5c-519d-11ee-be56-0242ac120002"
     }
 parameters: []
 headers:
@@ -27,7 +27,7 @@ authentication:
   token: "{% response 'body', 'req_9ef8ff64399946e8a96ca6ee4f609dca',
     'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'never', 60 %}"
   disabled: true
-metaSortKey: -1693345193563.5
+metaSortKey: -1693345187360.125
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

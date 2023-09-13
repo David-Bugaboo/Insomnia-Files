@@ -1,0 +1,23 @@
+_id: req_9dfd27a3faf0457e8d2dae6c5a71f35f
+type: Request
+parentId: fld_cb79ea0f76004f14bbf59732fb6a46dd
+modified: 1694479186719
+created: 1694451672081
+url: "{{ _.baseURL }}reports/066f2a90-9a33-4f18-89d2-36e1274385ba"
+name: Get specific report
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.3
+authentication: {}
+metaSortKey: -1693976471649.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

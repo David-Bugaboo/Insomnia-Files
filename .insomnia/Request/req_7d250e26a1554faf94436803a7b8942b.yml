@@ -1,9 +1,9 @@
 _id: req_7d250e26a1554faf94436803a7b8942b
 type: Request
 parentId: fld_37a52dc85f9a4be3bb56b403f09d11f1
-modified: 1693945038272
+modified: 1694612237728
 created: 1693514552083
-url: "{{ _.baseURL }}companies/dfc85596-6168-4ee2-a95e-5c082d3f42aa"
+url: "{{ _.baseURL }}companies/5d09972f-ecec-49eb-b512-5dda08e19dda"
 name: Get Specific Company
 description: ""
 method: GET

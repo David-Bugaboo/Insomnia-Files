@@ -1,0 +1,10 @@
+_id: ut_2ceb623990c140aa9d24b9ff055d79fe
+type: UnitTest
+parentId: uts_d497a53fb15943afbc1c0a032ba42c30
+modified: 1694445366110
+created: 1694445352994
+requestId: req_71531bd61e6c46b6a973baeeb49a5678
+name: Correctly get All Users
+code: |-
+  const response1 = await insomnia.send();
+  expect(response1.status).to.equal(200);

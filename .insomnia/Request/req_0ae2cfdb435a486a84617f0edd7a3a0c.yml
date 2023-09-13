@@ -1,0 +1,31 @@
+_id: req_0ae2cfdb435a486a84617f0edd7a3a0c
+type: Request
+parentId: fld_cb79ea0f76004f14bbf59732fb6a46dd
+modified: 1694489719019
+created: 1694488083799
+url: "{{ _.baseURL }}reports/staff/066f2a90-9a33-4f18-89d2-36e1274385ba"
+name: remove Staff
+description: ""
+method: DELETE
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	
+    	"facilitatorsId":["c5abd704-1df5-4958-bd77-5efee4b30ba5"]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: Insomnia/2023.5.3
+authentication: {}
+metaSortKey: -1693944337845.125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

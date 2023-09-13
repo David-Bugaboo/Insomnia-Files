@@ -1,26 +1,27 @@
-_id: req_9ef8ff64399946e8a96ca6ee4f609dca
+_id: req_7eab824a435c49f6a1a389ea0e102be5
 type: Request
-parentId: fld_817529b467aa4f5cb95dce7ac77a49bf
-modified: 1694547563725
-created: 1693420172261
-url: "{{ _.baseURL }}auth/login"
-name: Login
+parentId: fld_cb79ea0f76004f14bbf59732fb6a46dd
+modified: 1694489732236
+created: 1694454683179
+url: "{{ _.baseURL }}reports/staff/066f2a90-9a33-4f18-89d2-36e1274385ba"
+name: Insert Staff
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"email":"david.faco@bugaboostudio.com",
-    	"password":"Zigurate1",
-    	"cu":"aberto"
+    	
+    	"facilitatorsId":["c5abd704-1df5-4958-bd77-5efee4b30ba5"]
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
+  - name: User-Agent
+    value: Insomnia/2023.5.3
 authentication: {}
-metaSortKey: -1693420172261
+metaSortKey: -1693955049113.25
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
