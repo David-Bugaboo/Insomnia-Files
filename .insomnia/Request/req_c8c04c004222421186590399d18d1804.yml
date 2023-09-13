@@ -1,7 +1,7 @@
 _id: req_c8c04c004222421186590399d18d1804
 type: Request
 parentId: fld_e9ab6a50798046f1a40dc8fc1f40b2b6
-modified: 1694546592209
+modified: 1694633739296
 created: 1694546519467
 url: "{{ _.baseURL }}users/superuser"
 name: create SuperUser
@@ -11,8 +11,8 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"name":"Elson Pegado",
-    	"email":"elson@bugaboostudio.com",
+    	"name":"SuperUser",
+    	"email":"su@bugaboostudio.com",
     	"password":"Zigurate1",
     	"cpf":"14574101334",
     	"role":"SUPERUSER",

@@ -1,33 +1,29 @@
-_id: req_2c63ee0c384d4102ace1daba184aaff9
+_id: req_29588eb3cb57482bbcccd77e6fd33799
 type: Request
-parentId: fld_37a52dc85f9a4be3bb56b403f09d11f1
-modified: 1694634182095
-created: 1693514552079
-url: "{{ _.baseURL }}companies"
-name: Create Company
+parentId: fld_cb79ea0f76004f14bbf59732fb6a46dd
+modified: 1694630924488
+created: 1694626096778
+url: "{{ _.baseURL }}reports/answerquestion/c7612f27-59d6-4e57-ba33-4dd94f06f6d2"
+name: edit answered Question
 description: ""
-method: POST
+method: PATCH
 body:
   mimeType: application/json
   text: |-
     {
-    	"legalName":"Zigurate Studios LTDA",
-    	"bussinessName": "Zigurate",
-    	"accessDate":"2023-09-12T00:00:00.000Z",
-    	"email":"administrative1@zigurate.com",
-    	"cnpj":"100158961456",
-    	"section": "A"
+    	"answerText":"texto sério agora, respondido pelo usuário."
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
+  - name: User-Agent
+    value: Insomnia/2023.5.3
 authentication:
   type: bearer
   token: "{% response 'body', 'req_9ef8ff64399946e8a96ca6ee4f609dca',
     'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'never', 60 %}"
-  disabled: false
-metaSortKey: -1693345193563.5
+metaSortKey: -1694278943263.5
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
