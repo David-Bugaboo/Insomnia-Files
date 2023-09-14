@@ -1,7 +1,7 @@
 _id: req_bbc718843f1743128a25abf7b137304f
 type: Request
 parentId: fld_e9ab6a50798046f1a40dc8fc1f40b2b6
-modified: 1694547530668
+modified: 1694720921634
 created: 1693345264719
 url: "{{ _.baseURL }}users"
 name: Create User
@@ -11,12 +11,12 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"name":"David Facó",
-    	"email":"david.faco@bugaboostudio.com",
+    	"name":"Pedro Henrique",
+    	"email":"pedro@bugaboostudio.com",
     	"password":"Zigurate1",
-    	"cpf":"05862080384",
-    	"role":"ADMIN",
-    	"companyId":"5d09972f-ecec-49eb-b512-5dda08e19dda"
+    	"cpf":"13574101334",
+    	"role":"EMPLOYEE",
+    	"companyId":"34f157fa-ff14-4198-98e5-2af29ee8ef1c"
     }
 parameters: []
 headers:

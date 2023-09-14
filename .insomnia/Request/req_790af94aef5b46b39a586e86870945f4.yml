@@ -1,18 +1,24 @@
 _id: req_790af94aef5b46b39a586e86870945f4
 type: Request
 parentId: fld_cb79ea0f76004f14bbf59732fb6a46dd
-modified: 1694611449019
+modified: 1694717968013
 created: 1694536862832
-url: "{{ _.baseURL }}reports/answer/e2789239-3400-41a8-a83e-189ca5ac3bff"
+url: "{{ _.baseURL }}reports/292efad9-fd4d-48bf-b65a-0bf6fd79f7fc/answerquestion/"
 name: answer Question
 description: ""
 method: POST
 body:
   mimeType: application/json
-  text: >-
+  text: |-
     {
-    	"questionId": "97833e34-cebb-42c1-ab5a-20590dbe6048",
-      "answerId": "2c8c5a6e-59b6-461f-b158-07d1a92917dd", "answerText":"ajekbdnkajsdbasjkdxbasjkdsabdjkaswbdjkasbdasjkd"
+    	"questionId": "097359ee-6e48-4466-9205-c2f263382eed",
+      "answerId": "fadb5bb4-e85c-48e5-9d2c-09963786eaa2", 
+    	"answerText":"resposta racional e comedida.",
+    	"files":[{
+    		"fileType":"40kb",
+    		"size":"40kb",
+    		"url": "cancer"
+    	}]
     }
 parameters: []
 headers:

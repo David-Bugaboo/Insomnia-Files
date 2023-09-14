@@ -1,9 +1,9 @@
 _id: req_eca68653c04841df962ade37bcbb051b
 type: Request
 parentId: fld_37a52dc85f9a4be3bb56b403f09d11f1
-modified: 1693848770653
+modified: 1694634665259
 created: 1693514552082
-url: "{{ _.baseURL }}companies/fb84b47a-327f-4ca6-a0d3-e6b980efac16"
+url: "{{ _.baseURL }}companies/1742e309-0c9f-44f3-bb7f-1848878fc93d"
 name: Delete Company
 description: ""
 method: DELETE
