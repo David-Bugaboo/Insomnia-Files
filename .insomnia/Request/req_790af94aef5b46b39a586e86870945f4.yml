@@ -1,9 +1,9 @@
 _id: req_790af94aef5b46b39a586e86870945f4
 type: Request
 parentId: fld_cb79ea0f76004f14bbf59732fb6a46dd
-modified: 1694717968013
+modified: 1694791771485
 created: 1694536862832
-url: "{{ _.baseURL }}reports/292efad9-fd4d-48bf-b65a-0bf6fd79f7fc/answerquestion/"
+url: "{{ _.baseURL }}reports/b01f4437-152a-4c03-998f-2c26978be76e/answerquestion/"
 name: answer Question
 description: ""
 method: POST
@@ -11,9 +11,9 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"questionId": "097359ee-6e48-4466-9205-c2f263382eed",
-      "answerId": "fadb5bb4-e85c-48e5-9d2c-09963786eaa2", 
+    	"questionId": "778a57af-705f-41c8-9ee7-c8cfb41319f3",
     	"answerText":"resposta racional e comedida.",
+    	"nonApplicable":true,
     	"files":[{
     		"fileType":"40kb",
     		"size":"40kb",

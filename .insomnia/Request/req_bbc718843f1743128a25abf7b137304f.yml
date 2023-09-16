@@ -1,7 +1,7 @@
 _id: req_bbc718843f1743128a25abf7b137304f
 type: Request
 parentId: fld_e9ab6a50798046f1a40dc8fc1f40b2b6
-modified: 1694720921634
+modified: 1694896436473
 created: 1693345264719
 url: "{{ _.baseURL }}users"
 name: Create User
@@ -11,12 +11,12 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"name":"Pedro Henrique",
-    	"email":"pedro@bugaboostudio.com",
+    	"name":"Daniel Carlos 3 ",
+    	"email":"danielcarlos3@bugaboostudio1.com",
     	"password":"Zigurate1",
-    	"cpf":"13574101334",
-    	"role":"EMPLOYEE",
-    	"companyId":"34f157fa-ff14-4198-98e5-2af29ee8ef1c"
+    	"cpf":"13374102635",
+    	"role":"MANAGER",
+    	"companyId":"3cb4430d-a560-4ad0-8c3f-cb160a90c78f"
     }
 parameters: []
 headers:

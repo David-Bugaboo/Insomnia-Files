@@ -1,20 +1,22 @@
-_id: req_9240827905e546ff98fd77a3bc04e27c
+_id: req_4570d973b5c74078b2f0d4793d7a9895
 type: Request
-parentId: fld_e9ab6a50798046f1a40dc8fc1f40b2b6
-modified: 1694724511719
-created: 1693347650740
-url: "{{ _.baseURL }}users/cfbcd24c-3d0d-46fe-bfc4-6ba6337a38c6"
-name: Delete User
+parentId: fld_1d1cb4bd2a0f44c38f87af2cd9a31564
+modified: 1694800412312
+created: 1694795455733
+url: "{{ _.baseURL }}auditory/claim/b01f4437-152a-4c03-998f-2c26978be76e"
+name: get claimed reports
 description: ""
-method: DELETE
+method: POST
 body: {}
 parameters: []
-headers: []
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.3
 authentication:
   type: bearer
   token: "{% response 'body', 'req_9ef8ff64399946e8a96ca6ee4f609dca',
     'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'never', 60 %}"
-metaSortKey: -1693345205970.25
+metaSortKey: -1694795455733
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

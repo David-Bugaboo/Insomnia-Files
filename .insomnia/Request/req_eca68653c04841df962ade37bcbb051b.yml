@@ -1,15 +1,19 @@
 _id: req_eca68653c04841df962ade37bcbb051b
 type: Request
 parentId: fld_37a52dc85f9a4be3bb56b403f09d11f1
-modified: 1694634665259
+modified: 1694724504141
 created: 1693514552082
-url: "{{ _.baseURL }}companies/1742e309-0c9f-44f3-bb7f-1848878fc93d"
+url: "{{ _.baseURL }}companies/cfbcd24c-3d0d-46fe-bfc4-6ba6337a38c6"
 name: Delete Company
 description: ""
 method: DELETE
-body: {}
+body:
+  mimeType: application/json
+  text: ""
 parameters: []
-headers: []
+headers:
+  - name: Content-Type
+    value: application/json
 authentication:
   type: bearer
   token: "{% response 'body', 'req_9ef8ff64399946e8a96ca6ee4f609dca',

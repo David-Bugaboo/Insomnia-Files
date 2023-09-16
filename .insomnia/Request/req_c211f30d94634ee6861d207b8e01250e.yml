@@ -1,7 +1,7 @@
 _id: req_c211f30d94634ee6861d207b8e01250e
 type: Request
 parentId: fld_ac24a9c1d5dc4ae49b861765eded75e9
-modified: 1694716063755
+modified: 1694788916924
 created: 1693925958918
 url: "{{ _.baseURL }}questions"
 name: Create Question
@@ -11,12 +11,12 @@ body:
   mimeType: application/json
   text: |-
     {
-            "section": "E",
+            "section": "A",
             "mandatory": false,
             "category": "Media",
             "subcategory": "Telecommunications",
             "statement": "(.|\n){10,}",
-            "code": "VL-1538",
+            "code": "VL-1218",
             "answers": [
                 {
                     "text": "kflkHE2021",

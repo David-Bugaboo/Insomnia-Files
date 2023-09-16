@@ -1,7 +1,7 @@
 _id: req_29588eb3cb57482bbcccd77e6fd33799
 type: Request
 parentId: fld_cb79ea0f76004f14bbf59732fb6a46dd
-modified: 1694705162343
+modified: 1694722392532
 created: 1694626096778
 url: "{{ _.baseURL }}reports/answerquestion/74eb1135-3401-493b-b330-f5baf7160144"
 name: edit answered Question
@@ -12,7 +12,7 @@ body:
   text: |-
     {
     	"answerText":"texto sério agora, respondido pelo usuário.",
-    	"filesToRemove":["218a5f13-d4d4-4c01-910d-b78cf1a2ff3a"]
+
     }
 parameters: []
 headers:
