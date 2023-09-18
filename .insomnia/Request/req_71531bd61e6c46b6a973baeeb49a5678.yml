@@ -1,19 +1,31 @@
 _id: req_71531bd61e6c46b6a973baeeb49a5678
 type: Request
 parentId: fld_e9ab6a50798046f1a40dc8fc1f40b2b6
-modified: 1693840746961
+modified: 1695063906109
 created: 1693345218377
 url: "{{ _.baseURL }}users"
 name: Get All Users
 description: ""
 method: GET
 body: {}
-parameters: []
+parameters:
+  - id: pair_7c96dda5798b4b04b1b107e8b36520ba
+    name: page
+    value: ""
+    description: ""
+  - id: pair_5db86a2cf0174e97a84ed7b52536c9d9
+    name: nonPaginate
+    value: "true"
+    description: ""
+    disabled: true
+  - id: pair_48801fafd4f54e31b7f6307fa730c914
+    name: perPage
+    value: "2"
+    description: ""
 headers: []
 authentication:
   type: bearer
-  token: "{% response 'body', 'req_9ef8ff64399946e8a96ca6ee4f609dca',
-    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'never', 60 %}"
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI1M2QwMTEzNy00MWE3LTRmYWMtOWVhMC1kZjc1N2UwOTI4YWMiLCJlbWFpbCI6ImRhdmlkLmZhY29AYnVnYWJvb3N0dWRpby5jb20iLCJpYXQiOjE2OTUwNjM4OTAsImV4cCI6MTY5NTA2NzQ5MH0.3iU9JuFjjyjRsTGhCz6CHqHvHYOg6qEPr8OWCPRGaMYeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI1M2QwMTEzNy00MWE3LTRmYWMtOWVhMC1kZjc1N2UwOTI4YWMiLCJlbWFpbCI6ImRhdmlkLmZhY29AYnVnYWJvb3N0dWRpby5jb20iLCJpYXQiOjE2OTUwNjM4OTAsImV4cCI6MTY5NTA2NzQ5MH0.3iU9JuFjjyjRsTGhCz6CHqHvHYOg6qEPr8OWCPRGaMYeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI1M2QwMTEzNy00MWE3LTRmYWMtOWVhMC1kZjc1N2UwOTI4YWMiLCJlbWFpbCI6ImRhdmlkLmZhY29AYnVnYWJvb3N0dWRpby5jb20iLCJpYXQiOjE2OTUwNjM4OTAsImV4cCI6MTY5NTA2NzQ5MH0.3iU9JuFjjyjRsTGhCz6CHqHvHYOg6qEPr8OWCPRGaMY
   disabled: false
 metaSortKey: -1693345218377
 isPrivate: false

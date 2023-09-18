@@ -1,10 +1,10 @@
 _id: req_4570d973b5c74078b2f0d4793d7a9895
 type: Request
 parentId: fld_1d1cb4bd2a0f44c38f87af2cd9a31564
-modified: 1694800412312
+modified: 1694912793626
 created: 1694795455733
 url: "{{ _.baseURL }}auditory/claim/b01f4437-152a-4c03-998f-2c26978be76e"
-name: get claimed reports
+name: claim reports
 description: ""
 method: POST
 body: {}
