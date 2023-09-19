@@ -1,7 +1,7 @@
 _id: req_9d8c1f0d4d734e8892d7f1d1a23f4484
 type: Request
 parentId: fld_817529b467aa4f5cb95dce7ac77a49bf
-modified: 1695063981338
+modified: 1695084424630
 created: 1695063818820
 url: "{{ _.baseURL }}auth/refresh"
 name: Refresh token
@@ -18,7 +18,8 @@ headers:
     value: Insomnia/2023.5.3
 authentication:
   type: bearer
-  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI1M2QwMTEzNy00MWE3LTRmYWMtOWVhMC1kZjc1N2UwOTI4YWMiLCJlbWFpbCI6ImRhdmlkLmZhY29AYnVnYWJvb3N0dWRpby5jb20iLCJyZWZyZXNoIjp0cnVlLCJpYXQiOjE2OTUwNjI2MTQsImV4cCI6MTY5NzY1NDYxNH0.j22mZUhWKF0TSlF365O0I7FOg6VaywqkG9n4UASlB7c
+  token: "{% response 'body', 'req_9ef8ff64399946e8a96ca6ee4f609dca',
+    'b64::JC5yZWZyZXNoX3Rva2Vu::46b', 'never', 60 %}"
 metaSortKey: -1695063818820
 isPrivate: false
 settingStoreCookies: true

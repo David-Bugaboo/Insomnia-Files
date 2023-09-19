@@ -1,17 +1,19 @@
-_id: req_322c1c06470a413684ab611555a4f94d
+_id: req_852e1f9e1a484972b4e02ec14e69c0e5
 type: Request
 parentId: fld_ac24a9c1d5dc4ae49b861765eded75e9
-modified: 1695146674446
-created: 1693938947395
-url: "{{ _.baseURL }}questions/efb8c165-d311-4845-a964-d80c8e0d61b6"
-name: Get Specific Questions
+modified: 1695144681805
+created: 1695128373335
+url: "{{ _.baseURL }}questions/section/A"
+name: Get By Section
 description: ""
 method: GET
 body: {}
 parameters: []
-headers: []
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.3
 authentication: {}
-metaSortKey: -1693927415608.8125
+metaSortKey: -1695128373335
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

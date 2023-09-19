@@ -1,33 +1,29 @@
-_id: req_bbc718843f1743128a25abf7b137304f
+_id: req_73a2b0fdbe2d4cecb81a2b8e6a167855
 type: Request
-parentId: fld_e9ab6a50798046f1a40dc8fc1f40b2b6
-modified: 1695148008078
-created: 1693345264719
-url: "{{ _.baseURL }}users"
-name: Create User
+parentId: fld_817529b467aa4f5cb95dce7ac77a49bf
+modified: 1695081868392
+created: 1695075974750
+url: "{{ _.baseURL }}auth/logout"
+name: logout
 description: ""
 method: POST
 body:
   mimeType: application/json
-  text: |-
+  text: >-
     {
-    	"name":"Elson Pegado ",
-    	"email":"elson@bugaboostudio.com",
-    	"password":"Zigurate1",
-    	"cpf":"13374103634",
-    	"role":"MANAGER",
-    	"companyId":"9999007d-dd1a-47eb-8ed0-bfe9f296fce5"
+    	"refresh_token":"{% response 'body', 'req_9ef8ff64399946e8a96ca6ee4f609dca', 'b64::JC5yZWZyZXNoX3Rva2Vu::46b', 'never', 60 %}"
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
+  - name: User-Agent
+    value: Insomnia/2023.5.3
 authentication:
   type: bearer
   token: "{% response 'body', 'req_9ef8ff64399946e8a96ca6ee4f609dca',
     'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'never', 60 %}"
-  disabled: true
-metaSortKey: -1693345193563.5
+metaSortKey: -1695075974750
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

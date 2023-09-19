@@ -1,50 +1,502 @@
 _id: req_c211f30d94634ee6861d207b8e01250e
 type: Request
 parentId: fld_ac24a9c1d5dc4ae49b861765eded75e9
-modified: 1694788916924
+modified: 1695144862019
 created: 1693925958918
-url: "{{ _.baseURL }}questions"
-name: Create Question
+url: "{{ _.baseURL }}questions/section/All"
+name: Create Questions
 description: ""
 method: POST
 body:
   mimeType: application/json
-  text: |-
-    {
-            "section": "A",
-            "mandatory": false,
-            "category": "Media",
-            "subcategory": "Telecommunications",
-            "statement": "(.|\n){10,}",
-            "code": "VL-1218",
+  text: >+
+    [
+        {
+            "category": "E",
+            "subcategory": "Preservação da Biodiversidade",
+            "statement": "A empresa segue diretrizes de preservação de habitats locais?",
+            "hasMandatory": true,
             "answers": [
                 {
-                    "text": "kflkHE2021",
-                    "points": 95,
-                    "title": "Iniciante"
+                    "title": "Engajado",
+                    "points": 10,
+                    "text": "Sim, seguimos rigorosamente e temos programas dedicados para isso.",
+                    "mandatory": true
                 },
                 {
-                    "text": "IfgtC8Ck0W",
-                    "points": 88,
-                    "title": "Engajado"
+                    "title": "Iniciante",
+                    "points": 4,
+                    "text": "Estamos em fase inicial de implementação.",
+                    "mandatory": false
                 },
                 {
-                    "text": "SKz036TBFp",
-                    "points": 62,
-                    "title": "Nao_conforme"
+                    "title": "Nao_conforme",
+                    "points": 0,
+                    "text": "Não seguimos diretrizes específicas.",
+                    "mandatory": false
+                }
+            ]
+        },
+        {
+            "category": "S",
+            "subcategory": "Diversidade e Inclusão",
+            "statement": "A empresa tem metas claras para a contratação de grupos sub-representados?",
+            "hasMandatory": false,
+            "answers": [
+                {
+                    "title": "Consciente",
+                    "points": 8,
+                    "text": "Temos metas, mas ainda estamos trabalhando na sua implementação.",
+                    "mandatory": false
                 },
                 {
-                    "text": "B84ysfmkz9",
-                    "points": 51,
-                    "title": "Sensibilizada"
+                    "title": "Sensibilizada",
+                    "points": 5,
+                    "text": "Estamos em discussões iniciais sobre o estabelecimento de metas.",
+                    "mandatory": false
                 },
                 {
-                    "text": "9Wt8Q00A2I",
-                    "points": 93,
-                    "title": "Consciente"
+                    "title": "Nao_conforme",
+                    "points": 0,
+                    "text": "Não temos metas específicas.",
+                    "mandatory": false
+                }
+            ]
+        },
+        {
+            "category": "G",
+            "subcategory": "Ética Corporativa",
+            "statement": "A empresa possui um código de ética e conduta?",
+            "hasMandatory": true,
+            "answers": [
+                {
+                    "title": "Engajado",
+                    "points": 10,
+                    "text": "Sim, e é regularmente revisado e comunicado a todos os colaboradores.",
+                    "mandatory": false
+                },
+                {
+                    "title": "Nao_conforme",
+                    "points": 0,
+                    "text": "Não possuímos um código de ética formalizado.",
+                    "mandatory": true
+                }
+            ]
+        },
+        {
+            "category": "E",
+            "subcategory": "Conservação da Água",
+            "statement": "A empresa possui iniciativas para a conservação da água?",
+            "hasMandatory": true,
+            "answers": [
+                {
+                    "title": "Engajado",
+                    "points": 10,
+                    "text": "Sim, implementamos várias iniciativas e sistemas de reutilização da água.",
+                    "mandatory": true
+                },
+                {
+                    "title": "Iniciante",
+                    "points": 5,
+                    "text": "Estamos no processo de identificar as melhores práticas.",
+                    "mandatory": false
+                },
+                {
+                    "title": "Nao_conforme",
+                    "points": 0,
+                    "text": "No momento, não temos nenhuma iniciativa específica.",
+                    "mandatory": false
+                }
+            ]
+        },
+        {
+            "category": "E",
+            "subcategory": "Energias Renováveis",
+            "statement": "A empresa utiliza fontes de energia renovável?",
+            "hasMandatory": false,
+            "answers": [
+                {
+                    "title": "Consciente",
+                    "points": 8,
+                    "text": "Usamos parcialmente energias renováveis em algumas operações.",
+                    "mandatory": false
+                },
+                {
+                    "title": "Sensibilizada",
+                    "points": 4,
+                    "text": "Estamos estudando a viabilidade de implementação.",
+                    "mandatory": false
+                }
+            ]
+        },
+        {
+            "category": "E",
+            "subcategory": "Redução de Emissões",
+            "statement": "Existem programas na empresa para reduzir emissões de carbono?",
+            "hasMandatory": true,
+            "answers": [
+                {
+                    "title": "Engajado",
+                    "points": 10,
+                    "text": "Sim, temos um plano detalhado e metas claras de redução.",
+                    "mandatory": false
+                },
+                {
+                    "title": "Nao_conforme",
+                    "points": 0,
+                    "text": "Não possuímos programas específicos para redução de emissões.",
+                    "mandatory": true
+                }
+            ]
+        },
+        {
+            "category": "E",
+            "subcategory": "Gestão de Resíduos",
+            "statement": "A empresa promove a reciclagem de seus resíduos?",
+            "hasMandatory": false,
+            "answers": [
+                {
+                    "title": "Engajado",
+                    "points": 10,
+                    "text": "Sim, reciclamos mais de 80% de nossos resíduos.",
+                    "mandatory": false
+                },
+                {
+                    "title": "Iniciante",
+                    "points": 5,
+                    "text": "Estamos desenvolvendo políticas para melhorar a gestão de resíduos.",
+                    "mandatory": false
+                }
+            ]
+        },
+        {
+            "category": "E",
+            "subcategory": "Biodiversidade",
+            "statement": "A empresa toma medidas para proteger a biodiversidade local?",
+            "hasMandatory": true,
+            "answers": [
+                {
+                    "title": "Consciente",
+                    "points": 8,
+                    "text": "Sim, mas há espaço para melhorias e expansão dessas medidas.",
+                    "mandatory": false
+                },
+                {
+                    "title": "Sensibilizada",
+                    "points": 4,
+                    "text": "Estamos no processo de identificação das melhores ações a serem tomadas.",
+                    "mandatory": false
+                },
+                {
+                    "title": "Nao_conforme",
+                    "points": 0,
+                    "text": "Atualmente, não temos ações específicas para proteção da biodiversidade.",
+                    "mandatory": true
+                }
+            ]
+        },
+        {
+            "category": "S",
+            "subcategory": "Trabalho Justo",
+            "statement": "A empresa paga salários justos?",
+            "hasMandatory": true,
+            "answers": [
+                {
+                    "title": "Engajado",
+                    "points": 10,
+                    "text": "Sim, acima da média.",
+                    "mandatory": true
+                },
+                {
+                    "title": "Iniciante",
+                    "points": 4,
+                    "text": "Estamos revisando.",
+                    "mandatory": false
+                }
+            ]
+        },
+        {
+            "category": "S",
+            "subcategory": "Diversidade",
+            "statement": "Existe diversidade na liderança?",
+            "hasMandatory": false,
+            "answers": [
+                {
+                    "title": "Consciente",
+                    "points": 8,
+                    "text": "Em partes.",
+                    "mandatory": false
+                },
+                {
+                    "title": "Nao_conforme",
+                    "points": 0,
+                    "text": "Não.",
+                    "mandatory": false
+                }
+            ]
+        },
+        {
+            "category": "S",
+            "subcategory": "Treinamento",
+            "statement": "Há treinamentos regulares para os funcionários?",
+            "hasMandatory": false,
+            "answers": [
+                {
+                    "title": "Engajado",
+                    "points": 10,
+                    "text": "Sim.",
+                    "mandatory": false
+                },
+                {
+                    "title": "Iniciante",
+                    "points": 5,
+                    "text": "Ocasionalmente.",
+                    "mandatory": false
+                }
+            ]
+        },
+        {
+            "category": "S",
+            "subcategory": "Desenvolvimento Comunitário",
+            "statement": "A empresa apoia comunidades locais?",
+            "hasMandatory": true,
+            "answers": [
+                {
+                    "title": "Engajado",
+                    "points": 10,
+                    "text": "Sim.",
+                    "mandatory": true
+                },
+                {
+                    "title": "Nao_conforme",
+                    "points": 0,
+                    "text": "Não.",
+                    "mandatory": false
+                }
+            ]
+        },
+        {
+            "category": "S",
+            "subcategory": "Sustentabilidade de Produtos",
+            "statement": "Produtos são eco-friendly?",
+            "hasMandatory": false,
+            "answers": [
+                {
+                    "title": "Consciente",
+                    "points": 8,
+                    "text": "Maioria sim.",
+                    "mandatory": false
+                },
+                {
+                    "title": "Sensibilizada",
+                    "points": 4,
+                    "text": "Alguns.",
+                    "mandatory": false
+                }
+            ]
+        },
+        {
+            "category": "G",
+            "subcategory": "Transparência",
+            "statement": "A empresa divulga relatórios financeiros?",
+            "hasMandatory": true,
+            "answers": [
+                {
+                    "title": "Engajado",
+                    "points": 10,
+                    "text": "Anualmente.",
+                    "mandatory": true
+                },
+                {
+                    "title": "Iniciante",
+                    "points": 5,
+                    "text": "Raramente.",
+                    "mandatory": false
+                }
+            ]
+        },
+        {
+            "category": "G",
+            "subcategory": "Integridade",
+            "statement": "Há políticas anti-corrupção implementadas?",
+            "hasMandatory": false,
+            "answers": [
+                {
+                    "title": "Consciente",
+                    "points": 8,
+                    "text": "Sim.",
+                    "mandatory": false
+                },
+                {
+                    "title": "Nao_conforme",
+                    "points": 0,
+                    "text": "Não.",
+                    "mandatory": false
+                }
+            ]
+        },
+        {
+            "category": "G",
+            "subcategory": "Participação",
+            "statement": "Stakeholders podem participar das decisões?",
+            "hasMandatory": true,
+            "answers": [
+                {
+                    "title": "Engajado",
+                    "points": 10,
+                    "text": "Sempre.",
+                    "mandatory": true
+                },
+                {
+                    "title": "Nao_conforme",
+                    "points": 0,
+                    "text": "Nunca.",
+                    "mandatory": false
+                }
+            ]
+        },
+        {
+            "category": "G",
+            "subcategory": "Responsabilidade",
+            "statement": "A diretoria é responsabilizada por falhas?",
+            "hasMandatory": false,
+            "answers": [
+                {
+                    "title": "Engajado",
+                    "points": 10,
+                    "text": "Sim.",
+                    "mandatory": false
+                },
+                {
+                    "title": "Iniciante",
+                    "points": 5,
+                    "text": "Às vezes.",
+                    "mandatory": false
+                }
+            ]
+        },
+        {
+            "category": "G",
+            "subcategory": "Planejamento",
+            "statement": "Há um planejamento estratégico a longo prazo?",
+            "hasMandatory": false,
+            "answers": [
+                {
+                    "title": "Consciente",
+                    "points": 8,
+                    "text": "5 anos.",
+                    "mandatory": false
+                },
+                {
+                    "title": "Sensibilizada",
+                    "points": 4,
+                    "text": "2 anos.",
+                    "mandatory": false
+                }
+            ]
+        },
+        {
+            "category": "G",
+            "subcategory": "Transparência",
+            "statement": "A empresa divulga relatórios financeiros?",
+            "hasMandatory": true,
+            "answers": [
+                {
+                    "title": "Engajado",
+                    "points": 10,
+                    "text": "Anualmente.",
+                    "mandatory": true
+                },
+                {
+                    "title": "Iniciante",
+                    "points": 5,
+                    "text": "Raramente.",
+                    "mandatory": false
+                }
+            ]
+        },
+        {
+            "category": "G",
+            "subcategory": "Integridade",
+            "statement": "Há políticas anti-corrupção implementadas?",
+            "hasMandatory": false,
+            "answers": [
+                {
+                    "title": "Consciente",
+                    "points": 8,
+                    "text": "Sim.",
+                    "mandatory": false
+                },
+                {
+                    "title": "Nao_conforme",
+                    "points": 0,
+                    "text": "Não.",
+                    "mandatory": false
+                }
+            ]
+        },
+        {
+            "category": "G",
+            "subcategory": "Participação",
+            "statement": "Stakeholders podem participar das decisões?",
+            "hasMandatory": true,
+            "answers": [
+                {
+                    "title": "Engajado",
+                    "points": 10,
+                    "text": "Sempre.",
+                    "mandatory": true
+                },
+                {
+                    "title": "Nao_conforme",
+                    "points": 0,
+                    "text": "Nunca.",
+                    "mandatory": false
+                }
+            ]
+        },
+        {
+            "category": "G",
+            "subcategory": "Responsabilidade",
+            "statement": "A diretoria é responsabilizada por falhas?",
+            "hasMandatory": false,
+            "answers": [
+                {
+                    "title": "Engajado",
+                    "points": 10,
+                    "text": "Sim.",
+                    "mandatory": false
+                },
+                {
+                    "title": "Iniciante",
+                    "points": 5,
+                    "text": "Às vezes.",
+                    "mandatory": false
+                }
+            ]
+        },
+        {
+            "category": "G",
+            "subcategory": "Planejamento",
+            "statement": "Há um planejamento estratégico a longo prazo?",
+            "hasMandatory": false,
+            "answers": [
+                {
+                    "title": "Consciente",
+                    "points": 8,
+                    "text": "5 anos.",
+                    "mandatory": false
+                },
+                {
+                    "title": "Sensibilizada",
+                    "points": 4,
+                    "text": "2 anos.",
+                    "mandatory": false
                 }
             ]
         }
+    ]
+
 parameters: []
 headers:
   - name: Content-Type
