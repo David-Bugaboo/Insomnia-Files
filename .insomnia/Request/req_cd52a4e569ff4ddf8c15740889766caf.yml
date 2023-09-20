@@ -1,32 +1,29 @@
-_id: req_bbc718843f1743128a25abf7b137304f
+_id: req_cd52a4e569ff4ddf8c15740889766caf
 type: Request
-parentId: fld_e9ab6a50798046f1a40dc8fc1f40b2b6
-modified: 1695152911532
-created: 1693345264719
-url: "{{ _.baseURL }}users"
-name: Create User
+parentId: fld_1d1cb4bd2a0f44c38f87af2cd9a31564
+modified: 1695166771432
+created: 1695166329281
+url: "{{ _.baseURL }}auditory/evaluateReport/e1d39122-74f1-41f9-b01b-2a956956f3b0"
+name: New Request
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"name":"Lavie Moraes ",
-    	"email":"lavie@bugaboostudio.com",
-    	"password":"Zigurate1",
-    	"cpf":"13374103638",
-    	"role":"AUDITOR"
+    	"avaliation":"Rejected"
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
+  - name: User-Agent
+    value: Insomnia/2023.5.3
 authentication:
   type: bearer
   token: "{% response 'body', 'req_9ef8ff64399946e8a96ca6ee4f609dca',
     'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'never', 60 %}"
-  disabled: true
-metaSortKey: -1693345193563.5
+metaSortKey: -1695166329281
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

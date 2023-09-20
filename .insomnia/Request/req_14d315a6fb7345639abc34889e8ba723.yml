@@ -1,9 +1,9 @@
 _id: req_14d315a6fb7345639abc34889e8ba723
 type: Request
 parentId: fld_1d1cb4bd2a0f44c38f87af2cd9a31564
-modified: 1695084407178
+modified: 1695164917786
 created: 1694912647233
-url: "{{ _.baseURL }}auditory/evaluatequestion/d890dbed-49f4-451a-aaaa-773413f4dd06"
+url: "{{ _.baseURL }}auditory/evaluatequestion/f6397b4a-2ee6-4fc7-bc6a-f6d849331e7d"
 name: evaluate Question
 description: ""
 method: POST
@@ -11,7 +11,8 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"feedback": "kill me"
+    	"feedback": "Naõ está bom, falta evidências.",
+    	"status":"Rejected"
     }
 parameters: []
 headers:
