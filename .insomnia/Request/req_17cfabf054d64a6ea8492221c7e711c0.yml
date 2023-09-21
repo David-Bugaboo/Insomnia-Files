@@ -1,18 +1,17 @@
-_id: req_14d315a6fb7345639abc34889e8ba723
+_id: req_17cfabf054d64a6ea8492221c7e711c0
 type: Request
-parentId: fld_1d1cb4bd2a0f44c38f87af2cd9a31564
-modified: 1695295490765
-created: 1694912647233
-url: "{{ _.baseURL }}auditory/evaluatequestion/a5941681-f6cc-4a02-b4fa-e7ef7d028311"
-name: evaluate Question
+parentId: fld_410d85d5ebd547b380d2d45d1372c544
+modified: 1695276278651
+created: 1695275714807
+url: "{{ _.baseURL }}reports/validateanswer/a5941681-f6cc-4a02-b4fa-e7ef7d028311"
+name: Validate Question
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"feedback": "Sem condições de aprovação, evidencias errôneas",
-    	"status":"Approved"
+    	"veredict":true
     }
 parameters: []
 headers:
@@ -24,7 +23,7 @@ authentication:
   type: bearer
   token: "{% response 'body', 'req_9ef8ff64399946e8a96ca6ee4f609dca',
     'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'never', 60 %}"
-metaSortKey: -1694912647233
+metaSortKey: -1695275714807
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

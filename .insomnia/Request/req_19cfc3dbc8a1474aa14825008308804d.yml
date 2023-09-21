@@ -1,10 +1,10 @@
-_id: req_9dfd27a3faf0457e8d2dae6c5a71f35f
+_id: req_19cfc3dbc8a1474aa14825008308804d
 type: Request
 parentId: fld_cb79ea0f76004f14bbf59732fb6a46dd
-modified: 1695286909975
-created: 1694451672081
-url: "{{ _.baseURL }}reports/586e497e-5180-4dd4-aedd-76db58bc0089"
-name: Get specific report
+modified: 1695273264636
+created: 1695273264037
+url: R
+name: New Request
 description: ""
 method: GET
 body: {}
@@ -13,7 +13,7 @@ headers:
   - name: User-Agent
     value: Insomnia/2023.5.3
 authentication: {}
-metaSortKey: -1693976471649.5
+metaSortKey: -1695273264037
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

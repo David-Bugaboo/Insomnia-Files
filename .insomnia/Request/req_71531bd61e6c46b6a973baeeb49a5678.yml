@@ -1,7 +1,7 @@
 _id: req_71531bd61e6c46b6a973baeeb49a5678
 type: Request
 parentId: fld_e9ab6a50798046f1a40dc8fc1f40b2b6
-modified: 1695081795257
+modified: 1695271522767
 created: 1693345218377
 url: "{{ _.baseURL }}users"
 name: Get All Users
@@ -20,7 +20,7 @@ parameters:
     disabled: true
   - id: pair_48801fafd4f54e31b7f6307fa730c914
     name: perPage
-    value: "2"
+    value: "4"
     description: ""
 headers: []
 authentication:
