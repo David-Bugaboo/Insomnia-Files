@@ -1,7 +1,7 @@
 _id: req_bbc718843f1743128a25abf7b137304f
 type: Request
-parentId: fld_e9ab6a50798046f1a40dc8fc1f40b2b6
-modified: 1695271457557
+parentId: fld_24fe1149ffe64e32840b800474835d98
+modified: 1695387429648
 created: 1693345264719
 url: "{{ _.baseURL }}users"
 name: Create User
@@ -11,12 +11,12 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"name":"Elson Pegado",
+    	"name":"Pedro Henrique",
     	"email":"elson@bugaboostudio.com",
-    	"password":"Zigurate1",
-    	"cpf":"13374103647",
-    	"role":"MANAGER",
-    	"companyId":"f8a969e6-5764-4620-b1a6-9ad8e9e3634d"
+    	"password":"Buga12345",
+    	"cpf":"13374103547",
+    	"role":"ADMIN",
+    	"avatar":"pic1.jpg"
     }
 parameters: []
 headers:
@@ -27,7 +27,7 @@ authentication:
   token: "{% response 'body', 'req_9ef8ff64399946e8a96ca6ee4f609dca',
     'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'never', 60 %}"
   disabled: true
-metaSortKey: -1693345193563.5
+metaSortKey: -1695296097080.5
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

@@ -1,17 +1,17 @@
-_id: req_080b92cc1d7b47b7ae00374279a76bc9
+_id: req_78ec105cf6ad4b5fbfaac7c569efe34e
 type: Request
 parentId: fld_817529b467aa4f5cb95dce7ac77a49bf
-modified: 1695306278320
-created: 1695306005722
-url: "{{ _.baseURL }}auth/confirmForgotPassword"
-name: confirmPasswordChange
+modified: 1695317626163
+created: 1695310859601
+url: "{{ _.baseURL }}auth/changePassword"
+name: Change Password
 description: ""
-method: GET
+method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"email":"david.faco@bugaboostudio.com"
+    	"newPassword":"Zigurate1!"
     }
 parameters: []
 headers:
@@ -19,8 +19,11 @@ headers:
     value: application/json
   - name: User-Agent
     value: Insomnia/2023.5.3
-authentication: {}
-metaSortKey: -1695288614720
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_3038713316754234835253913d44318a',
+    'b64::JC5jaGFuZ2VfcGFzc3dvcmQ=::46b', 'never', 60 %}"
+metaSortKey: -1695310859601
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
