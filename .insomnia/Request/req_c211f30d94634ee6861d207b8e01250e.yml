@@ -1,7 +1,7 @@
 _id: req_c211f30d94634ee6861d207b8e01250e
 type: Request
 parentId: fld_ac24a9c1d5dc4ae49b861765eded75e9
-modified: 1695272858160
+modified: 1695669148827
 created: 1693925958918
 url: "{{ _.baseURL }}questions/section/A"
 name: Create Questions
@@ -9,63 +9,25 @@ description: ""
 method: POST
 body:
   mimeType: application/json
-  text: >-
+  text: |-
     [{
             "category": "E",
+    				"title":"A question",
             "subcategory": "Emissões",
-            "statement": "A empresa possui metas para redução de emissões de CO2?",
+            "description": "A question statement",
             "hasMandatory": true,
             "answers": [
                 {
                     "title": "Engajado",
                     "points": 10,
-                    "text": "Sim, metas claras.",
+    								
+                    "description": "Sim, metas claras.",
                     "mandatory": true
                 },
                 {
                     "title": "Nao_conforme",
                     "points": 0,
-                    "text": "Não possui metas.",
-                    "mandatory": false
-                }
-            ]
-        },
-        {
-            "category": "S",
-            "subcategory": "Descarte",
-            "statement": "Há um plano de descarte responsável para resíduos têxteis?",
-            "hasMandatory": false,
-            "answers": [
-                {
-                    "title": "Consciente",
-                    "points": 8,
-                    "text": "Sim, plano estruturado.",
-                    "mandatory": false
-                },
-                {
-                    "title": "Iniciante",
-                    "points": 5,
-                    "text": "Em desenvolvimento.",
-                    "mandatory": false
-                }
-            ]
-        },
-        {
-            "category": "G",
-            "subcategory": "Inclusão",
-            "statement": "Há incentivo à inclusão e diversidade no ambiente de trabalho?",
-            "hasMandatory": true,
-            "answers": [
-                {
-                    "title": "Engajado",
-                    "points": 10,
-                    "text": "Sim, políticas claras.",
-                    "mandatory": true
-                },
-                {
-                    "title": "Sensibilizada",
-                    "points": 4,
-                    "text": "Em partes.",
+                    "description": "Não possui metas.",
                     "mandatory": false
                 }
             ]
@@ -74,7 +36,10 @@ parameters: []
 headers:
   - name: Content-Type
     value: application/json
-authentication: {}
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_9ef8ff64399946e8a96ca6ee4f609dca',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'never', 60 %}"
 metaSortKey: -1693925958918
 isPrivate: false
 settingStoreCookies: true

@@ -1,7 +1,7 @@
 _id: req_e30a418d95f246558c91c73fdf8e9044
 type: Request
-parentId: fld_e9ab6a50798046f1a40dc8fc1f40b2b6
-modified: 1695322142145
+parentId: fld_2d332a4e213d45be9727716fe576faba
+modified: 1695391652037
 created: 1695318115329
 url: "{{ _.baseURL }}users/email/pedro.henrique@bugaboostudio.com"
 name: Get by Email

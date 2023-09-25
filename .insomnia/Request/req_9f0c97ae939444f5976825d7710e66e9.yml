@@ -1,0 +1,40 @@
+_id: req_9f0c97ae939444f5976825d7710e66e9
+type: Request
+parentId: fld_410d85d5ebd547b380d2d45d1372c544
+modified: 1695392203800
+created: 1695392203800
+url: "{{ _.baseURL }}reports/answerquestion/"
+name: answer Question
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"questionId": "5339c033-b29a-4422-9b66-ce307b43a9ec",
+    	"answerText":"texto exemplo justificando a resposta dada.",
+    	"nonApplicable":true,
+    	"files":[{
+    		"fileType":"image",
+    		"name":"evidencia",
+    		"url": "s3.amazonaws.fiecesg.com/file-here.jpg"
+    	}]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: Insomnia/2023.5.3
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_9ef8ff64399946e8a96ca6ee4f609dca',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'never', 60 %}"
+metaSortKey: -1695220976637
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

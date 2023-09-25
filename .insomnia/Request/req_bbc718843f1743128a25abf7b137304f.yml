@@ -1,7 +1,7 @@
 _id: req_bbc718843f1743128a25abf7b137304f
 type: Request
 parentId: fld_24fe1149ffe64e32840b800474835d98
-modified: 1695387429648
+modified: 1695648392845
 created: 1693345264719
 url: "{{ _.baseURL }}users"
 name: Create User
@@ -11,11 +11,11 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"name":"Pedro Henrique",
-    	"email":"elson@bugaboostudio.com",
-    	"password":"Buga12345",
-    	"cpf":"13374103547",
-    	"role":"ADMIN",
+    	"name":"Lineu Silva",
+    	"email":"lineusilva@auditoria.com",
+    	"password":"Zigurate1",
+    	"cpf":"13374203343",
+    	"role":"AUDITOR",
     	"avatar":"pic1.jpg"
     }
 parameters: []
@@ -26,7 +26,7 @@ authentication:
   type: bearer
   token: "{% response 'body', 'req_9ef8ff64399946e8a96ca6ee4f609dca',
     'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'never', 60 %}"
-  disabled: true
+  disabled: false
 metaSortKey: -1695296097080.5
 isPrivate: false
 settingStoreCookies: true

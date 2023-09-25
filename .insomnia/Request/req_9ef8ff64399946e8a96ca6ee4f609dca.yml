@@ -1,7 +1,7 @@
 _id: req_9ef8ff64399946e8a96ca6ee4f609dca
 type: Request
 parentId: fld_817529b467aa4f5cb95dce7ac77a49bf
-modified: 1695317637294
+modified: 1695669039961
 created: 1693420172261
 url: "{{ _.baseURL }}auth/login"
 name: Login
@@ -11,8 +11,8 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"email":"david@bugaboostudio.com",
-    	"password":"Zigurate1!"
+    	"email":"admin@bugaboostudio.com",
+    	"password":"admin"
     }
 parameters: []
 headers:
