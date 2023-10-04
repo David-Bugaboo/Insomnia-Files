@@ -1,0 +1,26 @@
+_id: req_99a58688aef14cf5b34830ac11defb4a
+type: Request
+parentId: fld_1d1cb4bd2a0f44c38f87af2cd9a31564
+modified: 1696434753974
+created: 1696434495530
+url: "{{ _.baseURL }}auditory/nonApplicable/df84ad51-af33-4219-8563-e983a554b3cb"
+name: Mark as Non Applicable
+description: ""
+method: POST
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.3
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_9ef8ff64399946e8a96ca6ee4f609dca',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'never', 60 %}"
+metaSortKey: -1696434495530
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

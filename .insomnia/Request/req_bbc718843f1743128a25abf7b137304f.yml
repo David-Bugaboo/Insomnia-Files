@@ -1,7 +1,7 @@
 _id: req_bbc718843f1743128a25abf7b137304f
 type: Request
 parentId: fld_24fe1149ffe64e32840b800474835d98
-modified: 1696266867004
+modified: 1696434459956
 created: 1693345264719
 url: "{{ _.baseURL }}users"
 name: Create User
@@ -11,11 +11,11 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"name":"Lavie Moraes",
-    	"email":"lavie@bugaboostudio.com",
+    	"name":"Lineu Silva",
+    	"email":"liney@bugaboostudio.com",
     	"password":"Zigurate1",
-    	"cpf":"13374203332",
-    	"role":"MANAGER",
+    	"cpf":"13374303332",
+    	"role":"AUDITOR",
     	"avatar":"pic1.jpg",
     	"jobTitle":"Project Manager",
     	"companyId":"2627d30a-8dc9-4619-863a-93217d09db16"
