@@ -1,7 +1,7 @@
 _id: req_71531bd61e6c46b6a973baeeb49a5678
 type: Request
 parentId: fld_24fe1149ffe64e32840b800474835d98
-modified: 1696274985368
+modified: 1696429827700
 created: 1693345218377
 url: "{{ _.baseURL }}users"
 name: Get All Users
@@ -14,13 +14,22 @@ parameters:
     value: ""
     description: ""
   - id: pair_5db86a2cf0174e97a84ed7b52536c9d9
-    name: nonPaginate
-    value: "false"
+    name: jobTitle
+    value: Project Manager
     description: ""
-    disabled: false
+    disabled: true
   - id: pair_48801fafd4f54e31b7f6307fa730c914
     name: perPage
     value: "4"
+    description: ""
+  - id: pair_f6166f3aa6664e9db49418ab99653c2d
+    name: companyId
+    value: 2627d30a-8dc9-4619-863a-93217d09db16
+    description: ""
+    disabled: true
+  - id: pair_41652624469e497488dca2c73183510d
+    name: name
+    value: Pedro
     description: ""
 headers: []
 authentication:
