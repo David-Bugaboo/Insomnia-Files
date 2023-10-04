@@ -1,25 +1,27 @@
-_id: req_9ef8ff64399946e8a96ca6ee4f609dca
+_id: req_40ffb58ffd944bdb96b38813629f4ee3
 type: Request
-parentId: fld_817529b467aa4f5cb95dce7ac77a49bf
-modified: 1696426374410
-created: 1693420172261
-url: "{{ _.baseURL }}auth/login"
-name: Login
+parentId: fld_8470b3a26b8f4abb966bcc1cf2342d85
+modified: 1696349541144
+created: 1696292163930
+url: "{{ _.baseURL }}sectors/AAAAAAAA"
+name: Update Sector
 description: ""
-method: POST
+method: PATCH
 body:
   mimeType: application/json
   text: |-
     {
-    	"email":"david.faco@bugaboostudio.com",
-    	"password":"Zigurate1"
+    	"section":"A",
+    	"description":"Descrição de Setor aqui"
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
+  - name: User-Agent
+    value: Insomnia/2023.5.3
 authentication: {}
-metaSortKey: -1693420172261
+metaSortKey: -1696290732782
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

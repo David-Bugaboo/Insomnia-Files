@@ -1,20 +1,22 @@
-_id: req_7d250e26a1554faf94436803a7b8942b
+_id: req_fae0e80db4df46059c5abfafd9fe3eea
 type: Request
-parentId: fld_37a52dc85f9a4be3bb56b403f09d11f1
-modified: 1696013782667
-created: 1693514552083
-url: "{{ _.baseURL }}companies/2627d30a-8dc9-4619-863a-93217d09db16"
-name: Get Specific Company
+parentId: fld_7a7e9db34b344d1e8abd98b7bbc4949e
+modified: 1696288727414
+created: 1696288503921
+url: "{{ _.baseURL }}reports/questionFiles/47474fba-4971-45ab-b1e3-5247cafd1121"
+name: Delete Question File
 description: ""
-method: GET
+method: DELETE
 body: {}
 parameters: []
-headers: []
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.3
 authentication:
   type: bearer
   token: "{% response 'body', 'req_9ef8ff64399946e8a96ca6ee4f609dca',
     'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'never', 60 %}"
-metaSortKey: -1693345212173.625
+metaSortKey: -1696288503921
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

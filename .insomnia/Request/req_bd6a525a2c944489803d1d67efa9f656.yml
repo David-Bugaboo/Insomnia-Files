@@ -1,0 +1,23 @@
+_id: req_bd6a525a2c944489803d1d67efa9f656
+type: Request
+parentId: fld_37a52dc85f9a4be3bb56b403f09d11f1
+modified: 1696297953773
+created: 1696294987393
+url: "{{ _.baseURL }}companies/files/53db296e-45f3-43fd-abe2-64cea96db74e"
+name: New Request
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.3
+authentication: {}
+metaSortKey: -1696294987393
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

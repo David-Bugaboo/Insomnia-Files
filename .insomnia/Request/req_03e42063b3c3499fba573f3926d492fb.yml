@@ -1,7 +1,7 @@
 _id: req_03e42063b3c3499fba573f3926d492fb
 type: Request
 parentId: fld_37a52dc85f9a4be3bb56b403f09d11f1
-modified: 1695403387212
+modified: 1696427913277
 created: 1693514552015
 url: "{{ _.baseURL }}companies"
 name: Get All Companies
@@ -14,8 +14,13 @@ parameters:
     value: "2"
     description: ""
   - id: pair_daf05613698c423982f2cf2624add339
-    name: nonPaginate
-    value: "true"
+    name: status
+    value: Pending
+    description: ""
+    disabled: true
+  - id: pair_01922694f0fc450c95d63bac533ac478
+    name: businessName
+    value: Zigurate
     description: ""
     disabled: true
 headers: []

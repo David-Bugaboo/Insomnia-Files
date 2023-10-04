@@ -1,20 +1,22 @@
-_id: req_7d250e26a1554faf94436803a7b8942b
+_id: req_e9dc6fbfcf11429e8af1a8cfb97ad7ee
 type: Request
-parentId: fld_37a52dc85f9a4be3bb56b403f09d11f1
-modified: 1696013782667
-created: 1693514552083
-url: "{{ _.baseURL }}companies/2627d30a-8dc9-4619-863a-93217d09db16"
-name: Get Specific Company
+parentId: fld_410d85d5ebd547b380d2d45d1372c544
+modified: 1696271146414
+created: 1696269059225
+url: "{{ _.baseURL }}users/getUsers/company"
+name: get Users from Company
 description: ""
 method: GET
 body: {}
 parameters: []
-headers: []
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.3
 authentication:
   type: bearer
   token: "{% response 'body', 'req_9ef8ff64399946e8a96ca6ee4f609dca',
     'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'never', 60 %}"
-metaSortKey: -1693345212173.625
+metaSortKey: -1696269059225
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

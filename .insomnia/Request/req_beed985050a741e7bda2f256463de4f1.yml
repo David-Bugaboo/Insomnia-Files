@@ -1,9 +1,9 @@
 _id: req_beed985050a741e7bda2f256463de4f1
 type: Request
 parentId: fld_24fe1149ffe64e32840b800474835d98
-modified: 1695391575873
+modified: 1695933998754
 created: 1693359184445
-url: "{{ _.baseURL }}users/a5a3fcec-20c4-4654-a9cc-4286b4d7b93b"
+url: "{{ _.baseURL }}users/310b8364-edab-493c-8ea0-69c3870a9520"
 name: Update User
 description: ""
 method: PATCH
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"cpf":"05862080384"
+    	"name":"David Torquato Facó"
     }
 parameters: []
 headers:

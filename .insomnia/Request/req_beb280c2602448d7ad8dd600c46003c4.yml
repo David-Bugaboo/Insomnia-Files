@@ -1,10 +1,10 @@
-_id: req_af7df81dcbac45c9ab46e50e831fbc44
+_id: req_beb280c2602448d7ad8dd600c46003c4
 type: Request
-parentId: wrk_173770ab28d94ad2b9257f57e058d8f6
-modified: 1695392299229
-created: 1695392296911
-url: "{{ _.baseURL }}questions/section/A"
-name: Get By Section
+parentId: fld_8470b3a26b8f4abb966bcc1cf2342d85
+modified: 1696291050367
+created: 1696290411944
+url: "{{ _.baseURL }}sectors"
+name: Get All Sectors
 description: ""
 method: GET
 body: {}
@@ -13,7 +13,7 @@ headers:
   - name: User-Agent
     value: Insomnia/2023.5.3
 authentication: {}
-metaSortKey: -1695285748853
+metaSortKey: -1696290411944
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

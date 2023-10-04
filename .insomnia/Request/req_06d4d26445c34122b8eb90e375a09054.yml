@@ -1,24 +1,18 @@
 _id: req_06d4d26445c34122b8eb90e375a09054
 type: Request
 parentId: fld_7a7e9db34b344d1e8abd98b7bbc4949e
-modified: 1695392237780
+modified: 1696288700465
 created: 1695392235573
-url: "{{ _.baseURL }}reports/answerquestion/"
+url: "{{ _.baseURL }}reports/answerQuestion/df84ad51-af33-4219-8563-e982a554b3cb"
 name: answer Question
 description: ""
-method: POST
+method: PATCH
 body:
   mimeType: application/json
   text: |-
     {
-    	"questionId": "5339c033-b29a-4422-9b66-ce307b43a9ec",
     	"answerText":"texto exemplo justificando a resposta dada.",
-    	"nonApplicable":true,
-    	"files":[{
-    		"fileType":"image",
-    		"name":"evidencia",
-    		"url": "s3.amazonaws.fiecesg.com/file-here.jpg"
-    	}]
+    	"answerId":"9e90753c-583d-428b-ac4b-caf29299876b"
     }
 parameters: []
 headers:

@@ -1,24 +1,17 @@
-_id: req_9f0c97ae939444f5976825d7710e66e9
+_id: req_6fa6b76c29c244dfa8377bcd4726f521
 type: Request
 parentId: fld_410d85d5ebd547b380d2d45d1372c544
-modified: 1695392203800
-created: 1695392203800
-url: "{{ _.baseURL }}reports/answerquestion/"
-name: answer Question
+modified: 1696273835489
+created: 1696266782223
+url: "{{ _.baseURL }}reports/addanswerer/df84ad51-af33-4219-8563-e982a554b3cb"
+name: Add Answerer
 description: ""
-method: POST
+method: PATCH
 body:
   mimeType: application/json
   text: |-
     {
-    	"questionId": "5339c033-b29a-4422-9b66-ce307b43a9ec",
-    	"answerText":"texto exemplo justificando a resposta dada.",
-    	"nonApplicable":true,
-    	"files":[{
-    		"fileType":"image",
-    		"name":"evidencia",
-    		"url": "s3.amazonaws.fiecesg.com/file-here.jpg"
-    	}]
+    	"user":"063dd722-c60c-4247-979a-df0b94207fc2"
     }
 parameters: []
 headers:
@@ -30,7 +23,7 @@ authentication:
   type: bearer
   token: "{% response 'body', 'req_9ef8ff64399946e8a96ca6ee4f609dca',
     'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'never', 60 %}"
-metaSortKey: -1695220976637
+metaSortKey: -1696266782223
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

@@ -1,25 +1,23 @@
-_id: req_9ef8ff64399946e8a96ca6ee4f609dca
+_id: req_0bc27e9f4224406fbda5ee6ec23f7bac
 type: Request
-parentId: fld_817529b467aa4f5cb95dce7ac77a49bf
-modified: 1696426374410
-created: 1693420172261
-url: "{{ _.baseURL }}auth/login"
-name: Login
+parentId: fld_8470b3a26b8f4abb966bcc1cf2342d85
+modified: 1696292588887
+created: 1696292567840
+url: "{{ _.baseURL }}sectors/A"
+name: Delete Sector
 description: ""
-method: POST
+method: DELETE
 body:
   mimeType: application/json
-  text: |-
-    {
-    	"email":"david.faco@bugaboostudio.com",
-    	"password":"Zigurate1"
-    }
+  text: ""
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
+  - name: User-Agent
+    value: Insomnia/2023.5.3
 authentication: {}
-metaSortKey: -1693420172261
+metaSortKey: -1696290572363
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
