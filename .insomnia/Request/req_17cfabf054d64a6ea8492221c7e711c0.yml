@@ -1,9 +1,9 @@
 _id: req_17cfabf054d64a6ea8492221c7e711c0
 type: Request
 parentId: fld_410d85d5ebd547b380d2d45d1372c544
-modified: 1695276278651
+modified: 1696437500157
 created: 1695275714807
-url: "{{ _.baseURL }}reports/validateanswer/a5941681-f6cc-4a02-b4fa-e7ef7d028311"
+url: "{{ _.baseURL }}reports/validateanswer/88dbb9a6-05dd-4c8d-8c0a-4eaa82197b73"
 name: Validate Question
 description: ""
 method: POST
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"veredict":true
+    	"veredict":false
     }
 parameters: []
 headers:

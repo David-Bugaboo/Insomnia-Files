@@ -1,7 +1,7 @@
 _id: req_aa0d108170f64b559da4d9cc27d3ca89
 type: Request
 parentId: fld_8470b3a26b8f4abb966bcc1cf2342d85
-modified: 1696293730427
+modified: 1696469593021
 created: 1696291053620
 url: "{{ _.baseURL }}sectors"
 name: Create Sector
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"section":"E",
+    	"section":"A",
     	"description":"Técnicas Agricolas e Agronegócio"
     }
 parameters: []

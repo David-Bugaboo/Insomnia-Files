@@ -1,9 +1,9 @@
 _id: req_06d4d26445c34122b8eb90e375a09054
 type: Request
 parentId: fld_7a7e9db34b344d1e8abd98b7bbc4949e
-modified: 1696288700465
+modified: 1696437453718
 created: 1695392235573
-url: "{{ _.baseURL }}reports/answerQuestion/df84ad51-af33-4219-8563-e982a554b3cb"
+url: "{{ _.baseURL }}reports/answerQuestion/88dbb9a6-05dd-4c8d-8c0a-4eaa82197b73"
 name: answer Question
 description: ""
 method: PATCH
@@ -12,7 +12,7 @@ body:
   text: |-
     {
     	"answerText":"texto exemplo justificando a resposta dada.",
-    	"answerId":"9e90753c-583d-428b-ac4b-caf29299876b"
+    	"answerId":"bfddeb24-979e-44b4-822a-842c161b1e0a"
     }
 parameters: []
 headers:

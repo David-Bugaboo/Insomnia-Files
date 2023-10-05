@@ -1,10 +1,10 @@
-_id: req_6f45b3b047f546559d779889cc778b82
+_id: req_e815208fbaa44fe4b8038d81bdd71408
 type: Request
 parentId: fld_1d1cb4bd2a0f44c38f87af2cd9a31564
-modified: 1695049434839
-created: 1694806320076
-url: "{{ _.baseURL }}auditory/claimed"
-name: get auditor audited reports
+modified: 1696444462981
+created: 1696444396034
+url: "{{ _.baseURL }}auditory/questions"
+name: Get Questions
 description: ""
 method: GET
 body: {}
@@ -16,7 +16,7 @@ authentication:
   type: bearer
   token: "{% response 'body', 'req_9ef8ff64399946e8a96ca6ee4f609dca',
     'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'never', 60 %}"
-metaSortKey: -1694806320076
+metaSortKey: -1696444396034
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

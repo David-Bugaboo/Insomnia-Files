@@ -1,7 +1,7 @@
 _id: req_71531bd61e6c46b6a973baeeb49a5678
 type: Request
 parentId: fld_24fe1149ffe64e32840b800474835d98
-modified: 1696429827700
+modified: 1696438488079
 created: 1693345218377
 url: "{{ _.baseURL }}users"
 name: Get All Users
@@ -29,7 +29,7 @@ parameters:
     disabled: true
   - id: pair_41652624469e497488dca2c73183510d
     name: name
-    value: Pedro
+    value: lavie
     description: ""
 headers: []
 authentication:

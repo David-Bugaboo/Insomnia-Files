@@ -1,16 +1,19 @@
 _id: req_322c1c06470a413684ab611555a4f94d
 type: Request
 parentId: fld_ac24a9c1d5dc4ae49b861765eded75e9
-modified: 1695146674446
+modified: 1696450332931
 created: 1693938947395
-url: "{{ _.baseURL }}questions/efb8c165-d311-4845-a964-d80c8e0d61b6"
+url: "{{ _.baseURL }}questions/d7f86851-df29-47b5-9e85-8ec324fa9943"
 name: Get Specific Questions
 description: ""
 method: GET
 body: {}
 parameters: []
 headers: []
-authentication: {}
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_9ef8ff64399946e8a96ca6ee4f609dca',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'never', 60 %}"
 metaSortKey: -1693927415608.8125
 isPrivate: false
 settingStoreCookies: true
